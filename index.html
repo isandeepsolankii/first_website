@@ -1,38 +1,50 @@
-   <head>
-	<link rel="stylesheet" href="sttle.css">
-</head>
-<header> 
-<div class="container-fluid">
-  <ul class="nav nav-pills" >
-    <li>
-      <a href="#">Sandeep Solanki</a>
-      </li>
-    <li class="pull-right">
-      <a href="#">About Me</a>
-      </li>
-    <li class="pull-right">
-      <a href="#">Skills</a>
-      </li>
-    <li class="pull-right">
-      <a href="#">Gallery</a>
-      </li>
-    <li class="pull-right">
-      <a href="#">Contact Me.</a>
-      </li>
-    </ul>
-	 </header>
-	<video autoplay id="myVideo" >
-  <source src="particle.mp4" type="video/mp4">
-</video>
-    <div class="block">
-      <h1 align="center">Sandeep Solanki</h1>
-    <h2 align="center">CS UnderGrad.</h2>
-    <div class="btnlist" align="center">
-      <a class="btn btn-default" href"https://www.facebook.com/people/Sandeep-Solanki/100013532412284">Facebook</a>
-      <a class="btn btn-default" href="https://www.instagram.com/isandeepsolanki/">Instagram</a>
-      <a class="btn btn-default" href="https://www.linkedin.com/in/sandeep-solanki-b59b08157/">LinkedIn</a>
-      <a class="btn btn-default" href="https://twitter.com/isolankisandeep">Twitter</a>
-      <a class="btn btn-default" href="sandeepsolanki672s@gmail.com">Gmail</a>
-      </div>
-      </div>
-  </div>
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sandeep Solanki</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="/"><img src="images/sss.png" alt="logo" width="200px"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Certificates</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Me</a>
+                <a href="#">Skills</a>
+                <a href="#">Certificates</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="mobile.js"></script>
+        <section class="header">
+          <video autoplay loop class="video-background" muted plays-inline>
+
+            <source src="images/particle.mp4" type="video/mp4">
+            </video>
+
+            <div class="welcome-msg">
+              <h1>Sandeep Solanki</h1>
+              <h2>CS UnderGrad.<h2>
+                <a href="#" class="btn btn-facebook"><img src="images/face.png"></img></a>
+                <a href="#" class="btn btn-instagram"><img src="images/insta.png"></a>
+                <a href="#" class="btn btn-linkedin"><img src="images/linkedin.png"></a>
+                <a href="#" class="btn btn-twitter"><img src="images/twitter.png"></a>
+                <a href="#" class="btn btn-gmail"><img src="images/gmail.png"></a>
+            </div>
+          </section>
+    </body>
+</html>
