@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-header {
+header 
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,15 +14,18 @@ header {
   height: 15px;
 }
 
-.logo {
+.logo
+{
   cursor: pointer;
   width: 10px;
   height: 10px;
 }
-body{
+body
+{
   background-color: #0091ea;
 }
-.smiley{
+.smiley
+{
  width: 100px;
  height: 120px;
  margin-left: 150px;
@@ -66,7 +70,8 @@ p
   height: 23px;
   margin-left: 10px;
 }
-.social{
+.social
+{
   margin-left: 330px;
   margin-top: 5px;
 }
